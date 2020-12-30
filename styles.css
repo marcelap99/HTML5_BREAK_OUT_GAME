@@ -1,0 +1,26 @@
+*{
+  padding:0;
+  margin:0;
+  font-size:14px;
+  font-family:serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+#name{
+  height:10vh;
+  width:80vw;
+  background: #eee;
+  font-size: 2em;
+  text-align:center;
+  margin: 20px auto 10px  auto;
+}
+canvas{
+  height:80vh;
+  width:80vw;
+  background: #eee;
+  margin: 0 auto;
+  border:1px solid black;
+}
